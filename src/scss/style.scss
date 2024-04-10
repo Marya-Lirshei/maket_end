@@ -1,0 +1,23 @@
+@import './fonts';
+@import './variables';
+@import './header';
+@import './content';
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'TT Lakes Medium';
+
+    button {
+        border: none;
+        background: transparent;
+      }
+  }

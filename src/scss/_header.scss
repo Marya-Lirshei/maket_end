@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 88px;
+    align-items: center;
+    width: 100%;
+    border-bottom:1px solid #41F6D7 ;
+    background-color: $decoration-color-2;
+
+    .icon:nth-child(1){
+        margin-left: 16px;
+        margin-right: 10px;
+    }
+
+    .image{
+        margin-left: 10px;
+        margin-right: -4px;
+    }
+    
+    
+    
+
+    &__icon-wrapper {
+        
+        display: flex;
+
+        &--main-logo {
+
+            flex-grow: 1;
+
+        }
+    }
+
+    &--repair{
+        margin-right: 16px;
+    }
+
+    &--contacts {
+        display: none;
+    }
+
+    &--repair {
+        &::before {
+            content: '';
+            margin: auto 20px auto 4px;
+            position: relative;
+            left: 15px;
+            display: block;
+            width: 2px;
+            height: 32px;
+            background-color: $decoration-color-4;
+        }
+    }
+}
+
