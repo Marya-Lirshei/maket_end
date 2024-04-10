@@ -1,15 +1,17 @@
 .header {
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
     height: 88px;
     align-items: center;
     width: 100%;
     border-bottom:1px solid #41F6D7 ;
     background-color: $decoration-color-2;
 
-    .icon:nth-child(1){
-        margin-left: 16px;
-        margin-right: 10px;
+    .icon:nth-child(1),
+    .icon:nth-child(2),
+    .icon:nth-child(3){
+        margin-left: 6px;
+        margin-right: 5px;
     }
 
     .image{

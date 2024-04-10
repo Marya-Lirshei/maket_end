@@ -106,5 +106,110 @@
     }
 }
 
+.chapter {
+    margin-top: 24px;
 
+    .read-more {
+        display: none;
+    }
+
+
+    &__header {
+        background: linear-gradient(to left, #F8F8F8, #FFFFFF);
+        width: 100%;
+        padding: 16px;
+        border-top: 1px solid $decoration-color-1;
+
+        h2 {
+            font-size: 16px;
+            line-height: 24px;
+            /* or 150% */
+            font-weight: 500;
+            letter-spacing: -0.2px;
+            text-transform: uppercase;
+
+            color: $decoration-color-3;
+        }
+    }
+
+    &__tax {
+        margin-top: 20px;
+        max-width: 500px;
+        padding: 16px 16px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #1B1C21;
+    }
+
+    &__commercial {
+
+
+        &--link {
+            font-weight: 500;
+            text-decoration: none;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.2px;
+            color: $decoration-color-7;
+            padding-left: 16px;
+        }
+
+    }
+
+}
+
+.card {
+    height: 100%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 5px;
+
+    &__button {
+        position: absolute;
+        right: 16px;
+        bottom: 16px;
+    }
+
+
+    &__header {
+        &:not(:first-of-type) {
+            padding-top: 10px;
+        }
+
+        h3 {
+            color: $decoration-color-3;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: -0.2px;
+            text-align: left;
+            font-weight: 500;
+        }
+    }
+
+
+    &__text {
+        color: $decoration-color-7;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.2px;
+        font-weight: 500;
+    }
+
+
+    .desctop {
+        display: none;
+        margin: 24px 0 8px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0 24px;
+        display: none;
+    }
+
+
+}
 
