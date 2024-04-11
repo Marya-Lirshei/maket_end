@@ -48,8 +48,8 @@
 
         &:hover {
             outline: 1px solid $decoration-color-1;
-            // background-color: $decoration-color-2;
-            // color: $decoration-color-3;
+            background-color: $decoration-color-2;
+            color: $decoration-color-3;
         }
     }
 }
@@ -133,10 +133,10 @@
     }
 
     &__tax {
-        margin-top: 20px;
+        font-family: 'TT Lakes Light';
+        // margin-top: 10px;
         max-width: 500px;
         padding: 16px 16px;
-        font-weight: 400;
         font-size: 14px;
         line-height: 20px;
         letter-spacing: 0.2px;
