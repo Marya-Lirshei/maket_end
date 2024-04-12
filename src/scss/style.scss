@@ -1,5 +1,5 @@
 @import './fonts';
-@import './variables';
+@import './color';
 @import './header';
 @import './content';
 @import '../../node_modules/swiper/swiper.scss';
@@ -9,6 +9,9 @@
 @import './larger1440';
 @import './footer';
 @import './larger1000';
+@import './overlay';
+@import './modal';
+@import './sidebar';
 
 
 
@@ -21,11 +24,6 @@
 
 body {
     font-family: 'TT Lakes Medium';
-
-    button {
-        border: none;
-        background: transparent;
-      }
   }
 
   img:not(.about__group):hover{  
@@ -44,7 +42,7 @@ body {
     height: 100vh;
     width: 100%;
     background-color: $decoration-color-5;
-    font-family: 'TT Lakes';
+    font-family: 'TT Lakes Medium';
     overflow-x: hidden;
     overflow-y: auto;
   }
