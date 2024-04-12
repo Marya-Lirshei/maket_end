@@ -52,30 +52,42 @@
     display: none;
   }
 
+ .read-more {
+    margin-top: 10px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 2px 4px;
+    border-radius: 5px;
+        &:hover {
+        outline: 1px solid $decoration-color-1;
+    }
+
+    &__image {
+        margin-right: 8px;
+    }
+}
   .chapter {
     .read-more {
       display: inline-block;
-      
-    //   padding-top: 10px;
-      margin: -2px 0 0 40px;
+      margin: 10px 0 0 40px;
     }
-    &__tax{
-        margin-top: -40px;
-    }
+    // &__tax{
+    //     margin-top: -40px;
+    // }
   }
 
-  //   .read-more {
-  //     display: inline-block;
-  //   }
+    // .read-more {
+    //   display: block;
+    // }
 
   .desctop {
-    display: flex;
-    max-width: 960px;
-    margin: 0 auto;
+      display: flex;
+      max-width: 860px;
+      margin: 0 auto;
 
     &__slide {
-      margin-bottom: 16px;
-      margin-left: 7px;
+      margin-bottom: 10px;
+      margin-left: 5px;
     }
 
     &__content {
@@ -85,7 +97,6 @@
       flex-wrap: wrap;
       padding-top: 24px;
       align-items: flex-end;
-    //   overflow: scroll;
       overflow: hidden;
       transition: 0.5s;
 
@@ -97,27 +108,23 @@
     }
   }
 
-  .price {
-    display: block;
-    // flex-flow: column;
-    margin: 50px auto;
-    background-color: $decoration-color-2;
-    border-radius: 5px;
-    max-width: 999px;
+  .price {    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
 
     &__item {
       position: relative;
-
       display: flex;
       align-items: center;
       width: 100%;
-      height: 65px;
-      padding-left: 16px;
-      padding-right: 16px;
+      height: 50px;
+      padding-left: 20px;
+      padding-right: 20px;
       border-radius: 0;
-      font-weight: 400;
       font-size: 14px;
-      line-height: 18px;
       letter-spacing: 0.2px;
       color: $decoration-color-7;
 
@@ -139,9 +146,6 @@
       &--content {
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        position: relative;
-        width: 100%;
 
         span {
           display: inline-block;
@@ -160,11 +164,8 @@
     }
 
     &__grey {
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 16px;
-      color: #7e7e82;
-      mix-blend-mode: normal;
+      width: 100%;
+      text-align: center;
       opacity: 0.72;
       background-color: $decoration-color-5;
 
