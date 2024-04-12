@@ -7,7 +7,7 @@
       &:first-of-type {
         &::after {
           content: '';
-          margin: auto 12px;
+          margin: auto 10px;
           position: relative;
           display: block;
           width: 2px;
@@ -52,33 +52,12 @@
     display: none;
   }
 
- .read-more {
-    margin-top: 10px;
-    cursor: pointer;
-    display: inline-block;
-    padding: 2px 4px;
-    border-radius: 5px;
-        &:hover {
-        outline: 1px solid $decoration-color-1;
-    }
-
-    &__image {
-        margin-right: 8px;
-    }
-}
   .chapter {
     .read-more {
       display: inline-block;
       margin: 10px 0 0 40px;
     }
-    // &__tax{
-    //     margin-top: -40px;
-    // }
   }
-
-    // .read-more {
-    //   display: block;
-    // }
 
   .desctop {
       display: flex;
@@ -125,7 +104,6 @@
       padding-right: 20px;
       border-radius: 0;
       font-size: 14px;
-      letter-spacing: 0.2px;
       color: $decoration-color-7;
 
       &:not(:first-child) {

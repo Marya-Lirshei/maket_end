@@ -89,22 +89,20 @@
 
 }
 
-// .read-more {
-//     // display: none;
-//     margin-top: 10px;
-//     cursor: pointer;
-//     display: inline-block;
-//     // white-space: nowrap;
-//     padding: 2px 4px;
-//     border-radius: 5px;
-//         &:hover {
-//         outline: 1px solid $decoration-color-1;
-//     }
+.read-more {
+    margin-top: 10px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 2px 4px;
+    border-radius: 5px;
+        &:hover {
+        outline: 1px solid $decoration-color-1;
+    }
 
-//     &__image {
-//         margin-right: 8px;
-//     }
-// }
+    &__image {
+        margin-right: 8px;
+    }
+}
 
 .chapter {
     margin-top: 24px;

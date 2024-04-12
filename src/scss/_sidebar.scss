@@ -31,12 +31,12 @@
 
     &__email{
         color: $decoration-color-7;
-    font-size: 16px;
-    font-weight: 500;
-    transition-duration: 1.5s;
-    line-height: 24px;
-    letter-spacing: -0.2px;
-    text-decoration:none ;
+        font-size: 16px;
+        font-weight: 500;
+        transition-duration: 1.5s;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        text-decoration:none ;
 
     }
   
@@ -44,11 +44,11 @@
 
     &__number{
         color: $decoration-color-7;
-    font-size: 24px;
-    font-weight: bold;
-    transition-duration: 1s;
-    text-decoration:none ;
-    margin-top: 10px;
+        font-size: 24px;
+        font-weight: bold;
+        transition-duration: 1s;
+        text-decoration:none ;
+        margin-top: 10px;
 
     }
 
@@ -57,7 +57,7 @@
     &__header{
         width: 100%;
         height:88px;
-        padding: 8px;
+        padding: 20px;
         display: flex;
         align-items:center;       
         .image{
@@ -115,7 +115,6 @@
 }
 
 .language{
-    cursor: pointer;
     &__item{
         margin-right: 8px;
         color:$decoration-color-7;
