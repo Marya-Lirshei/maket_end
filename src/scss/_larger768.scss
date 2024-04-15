@@ -60,9 +60,9 @@
   }
 
   .desctop {
-      display: flex;
-      max-width: 860px;
-      margin: 0 auto;
+    display: flex;
+    max-width: 860px;
+    margin: 0 auto;
 
     &__slide {
       margin-bottom: 10px;
@@ -72,7 +72,7 @@
     &__content {
       max-height: 205px;
       display: flex;
-      justify-content:space-around;
+      justify-content: space-around;
       flex-wrap: wrap;
       padding-top: 24px;
       align-items: flex-end;
@@ -87,7 +87,7 @@
     }
   }
 
-  .price {    
+  .price {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

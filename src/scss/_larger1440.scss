@@ -1,22 +1,22 @@
-@media screen and (min-width: 1440px){
-    .header{
-        display: none;
+@media screen and (min-width: 1440px) {
+  .header {
+    display: none;
+  }
+  .sidebar {
+    position: fixed;
+    &__btn-close {
+      display: none;
     }
-    .sidebar{
-        position: fixed;
-        &__btn-close{
-            display: none;
-        }
-    }
-    .page{
-        padding-left:320px ;
-    }
+  }
+  .page {
+    padding-left: 320px;
+  }
 
-    .sidebar{
-        z-index: 1;
-    }
+  .sidebar {
+    z-index: 1;
+  }
 
-    .price{
-       max-width: 2000px; 
-    }
+  .price {
+    max-width: 2000px;
+  }
 }
