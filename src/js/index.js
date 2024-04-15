@@ -52,7 +52,7 @@ const btnCall = document.querySelectorAll('.icon-call')
 const btnMessage = document.querySelectorAll('.icon-message')
 
 const burger = document.getElementsByClassName('icon-call__burger')[0]
-const sidebar = document.getElementsByClassName('sidebar')[0]
+const sidebar = document.getElementsByClassName('sidebar__wrapper')[0]
 const btnCloseSidebar = document.getElementsByClassName('sidebar__btn-close')[0]
 
 readMore[0].addEventListener('click', function () {

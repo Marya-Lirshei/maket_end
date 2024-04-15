@@ -2,21 +2,20 @@
   .header {
     display: none;
   }
-  .sidebar {
+  
+  .sidebar { 
+    &__wrapper{
+    box-shadow: none;
     position: fixed;
+    }
+
     &__btn-close {
       display: none;
     }
   }
+  
   .page {
     padding-left: 320px;
   }
 
-  .sidebar {
-    z-index: 1;
-  }
-
-  .price {
-    max-width: 2000px;
-  }
 }

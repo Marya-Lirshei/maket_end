@@ -27,9 +27,9 @@
 }
 
 .services {
-  margin-top: 24px;
-
+  
   &__list {
+    margin-top: 24px;
     display: flex;
     overflow: scroll;
     color: gray;
@@ -98,13 +98,13 @@
 }
 
 .chapter {
-  margin-top: 24px;
 
   .read-more {
     display: none;
   }
 
   &__header {
+    margin-top: 24px;
     background: linear-gradient(to left, #f8f8f8, #ffffff);
     width: 100%;
     padding: 16px;
@@ -144,13 +144,14 @@
 }
 
 .card {
+  &__wrapper{
   height: 100%;
   padding: 16px;
   display: flex;
   flex-direction: column;
   position: relative;
   border-radius: 5px;
-
+  }
   &__button {
     position: absolute;
     right: 16px;

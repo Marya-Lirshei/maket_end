@@ -88,11 +88,13 @@
   }
 
   .price {
+    &__wrapper{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
     gap: 20px;
+    }
 
     &__item {
       position: relative;
@@ -164,7 +166,10 @@
   }
 
   .footer {
+    &__wrapper{
     margin-top: 40px;
+    }
+    
     &__items {
       display: flex;
       justify-content: space-between;
