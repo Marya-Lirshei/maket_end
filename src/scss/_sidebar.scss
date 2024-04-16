@@ -1,17 +1,17 @@
 .sidebar {
-  &__wrapper{
-  position: absolute;
-  transform: translate(-100%);
-  transition: 1s;
-  z-index: 10;
-  width: 320px;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  background-color: $decoration-color-2;
-  box-shadow: 16px 0 52px 0px $shadow;
+  &__wrapper {
+    position: absolute;
+    transform: translate(-100%);
+    transition: 1s;
+    z-index: 10;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: $decoration-color-2;
+    box-shadow: 16px 0 52px 0px $shadow;
   }
-  
+
   &--active {
     transform: translate(0px);
   }
@@ -29,7 +29,6 @@
     outline: none;
     text-decoration: none;
   }
-
 
   &__email {
     color: $decoration-color-7;
@@ -56,17 +55,18 @@
     padding: 20px;
     display: flex;
     align-items: center;
-    .image {
-      flex-grow: 1;
-      margin: 8px;
-    }
-    .icon {
-      &__check {
-        margin-top: -3px;
-      }
+  }
+
+  &__image {
+    flex-grow: 1;
+    margin: 8px;
+  }
+
+  &__icon {
+    &__check {
+      margin-top: -3px;
     }
   }
-  
 
   &__footer {
     margin-top: 24px;
@@ -77,8 +77,6 @@
     margin-left: 6px;
   }
 }
-
-
 
 .icon {
   height: 40px;
