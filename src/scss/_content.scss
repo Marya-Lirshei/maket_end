@@ -143,13 +143,11 @@
 
 .card {
   &__wrapper {
-    // height: 100%;
     height: 200px;
-    background-color: cadetblue;
     padding: 16px;
     display: flex;
     flex-direction: column;
-    position: relative;
+    justify-content: space-between;
     border-radius: 5px;
   }
   &__button {
