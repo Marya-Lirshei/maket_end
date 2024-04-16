@@ -19,11 +19,13 @@
   }
 
   .about {
+    &__content{
     display: flex;
     justify-content: space-between;
     margin: 30px auto 0 auto;
     align-items: flex-start;
     width: 94%;
+    }
 
     &__wrapper {
       width: 48%;
@@ -36,12 +38,13 @@
   }
 
   .services {
-    margin-top: 24px;
+    
 
     &__list {
       display: flex;
       flex-wrap: wrap;
       overflow: hidden;
+      margin-top: 24px;
     }
     &__list-item {
       margin-left: 22px;
@@ -61,15 +64,15 @@
 
   .desctop {
     display: flex;
-    max-width: 860px;
-    margin: 0 auto;
-
+    
     &__slide {
       margin-bottom: 10px;
       margin-left: 5px;
     }
 
     &__content {
+      margin: 0 auto;
+      max-width: 860px;
       max-height: 205px;
       display: flex;
       justify-content: space-around;
