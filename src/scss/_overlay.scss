@@ -10,5 +10,8 @@
   opacity: 0.9;
   &--active {
     display: block;
+    overflow: hidden;
+    overflow-x: hidden;
   }
+  overflow-x: hidden;
 }

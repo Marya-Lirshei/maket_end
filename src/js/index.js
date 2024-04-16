@@ -44,7 +44,7 @@ const readMoreText = document.querySelectorAll('read-more__text')
 const desctop = document.querySelector('.desctop__content')
 const desctopRepair = document.querySelector('.desctop__content--repair')
 
-const modal = document.querySelectorAll('.modal')
+const modal = document.querySelectorAll('.modal__wrapper')
 const btnCloseModal = document.querySelectorAll('.modal__btn')
 const overlay = document.getElementsByClassName('overlay')[0]
 
@@ -95,14 +95,14 @@ btnCloseModal.forEach((elem) => {
   elem.addEventListener('click', function () {
     overlay.classList.remove('overlay--active')
     modal.forEach((elem) => {
-      elem.classList.remove('modal--active')
+      elem.classList.remove('modal__wrapper--active')
     })
   })
 })
 
 btnMessage.forEach(function (elem) {
   elem.addEventListener('click', function () {
-    modal[1].classList.add('modal--active')
+    modal[1].classList.add('modal__wrapper--active')
     sidebar.classList.remove('sidebar--active')
     overlay.classList.add('overlay--active')
   })
@@ -110,7 +110,7 @@ btnMessage.forEach(function (elem) {
 
 btnCall.forEach(function (elem) {
   elem.addEventListener('click', function () {
-    modal[0].classList.add('modal--active')
+    modal[0].classList.add('modal__wrapper--active')
     sidebar.classList.remove('sidebar--active')
     overlay.classList.add('overlay--active')
   })
@@ -130,6 +130,6 @@ overlay.addEventListener('click', () => {
   overlay.classList.remove('overlay--active')
   sidebar.classList.remove('sidebar--active')
   modal.forEach(function (elem) {
-    elem.classList.remove('modal--active')
+    elem.classList.remove('modal__wrapper--active')
   })
 })
