@@ -19,12 +19,12 @@
   }
 
   .about {
-    &__content{
-    display: flex;
-    justify-content: space-between;
-    margin: 30px auto 0 auto;
-    align-items: flex-start;
-    width: 94%;
+    &__content {
+      display: flex;
+      justify-content: space-between;
+      margin: 30px auto 0 auto;
+      align-items: flex-start;
+      width: 94%;
     }
 
     &__wrapper {
@@ -38,8 +38,6 @@
   }
 
   .services {
-    
-
     &__list {
       display: flex;
       flex-wrap: wrap;
@@ -64,7 +62,7 @@
 
   .desctop {
     display: flex;
-    
+
     &__slide {
       margin-bottom: 10px;
       margin-left: 5px;
@@ -91,12 +89,12 @@
   }
 
   .price {
-    &__wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 20px;
+    &__wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px;
     }
 
     &__item {
@@ -169,10 +167,10 @@
   }
 
   .footer {
-    &__wrapper{
-    margin-top: 40px;
+    &__wrapper {
+      margin-top: 40px;
     }
-    
+
     &__items {
       display: flex;
       justify-content: space-between;
@@ -192,9 +190,12 @@
   }
 
   .modal {
+    &__header {
+      margin-top: 29px;
+    }
     &__btn {
       position: absolute;
-      right: 460px;
+      right: 375px;
       top: 8px;
     }
   }

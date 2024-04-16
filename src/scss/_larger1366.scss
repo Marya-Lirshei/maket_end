@@ -1,0 +1,28 @@
+@media screen and (min-width: 1366px) {
+  .header {
+    display: none;
+  }
+
+  .desctop {
+    &__content {
+      margin-left: 15px;
+    }
+  }
+
+  .sidebar {
+    &__wrapper {
+      box-shadow: none;
+      position: fixed;
+    }
+
+    &__btn-close {
+      display: none;
+    }
+  }
+
+  .page {
+    &__wrapper {
+      padding-left: 320px;
+    }
+  }
+}
