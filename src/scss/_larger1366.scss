@@ -3,6 +3,33 @@
     display: none;
   }
 
+  .content{
+    &__header{
+      display: flex;
+      justify-content: space-between;
+      margin-left: 30px;
+      margin-right: 30px; 
+      
+      &::before {
+      content: '';
+      position: absolute;
+      left: -30px;
+    }
+    }
+   
+    &__navigation{
+      display: flex;
+      gap: 20px;
+    }
+  
+    &__icon-repair,
+    &__icon-checkstatus{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+
   .desctop {
     &__content {
       margin-left: 15px;

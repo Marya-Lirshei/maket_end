@@ -24,6 +24,10 @@
       background: $decoration-color-1;
     }
   }
+  &__navigation{
+    display: none;
+
+  }
 }
 
 .services {
