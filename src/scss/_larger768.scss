@@ -81,7 +81,7 @@
     &__content {
       margin: 0 auto;
       max-width: 860px;
-      max-height: 205px;
+      max-height: 199px;
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
@@ -103,10 +103,7 @@
       display: block;
       flex-flow: column;
       margin: 31px 15px;
-      // padding: 0 15px;
-      // background-color: $decoration-color-2;
-      // background-color: red;
-      border-radius: 5px;
+      border-radius: 50px;
       max-width: 1050px;
     }
 
@@ -118,13 +115,12 @@
       height: 65px;
       padding-left: 16px;
       padding-right: 16px;
-      // border-radius: 0;
       font-weight: 400;
       font-size: 14px;
       line-height: 18px;
-      // color: $decoration-color-7;
       background-color: $decoration-color-2;
 
+      
       &:not(:first-child) {
         &:not(:last-child) {
           &:after {
@@ -139,7 +135,7 @@
           }
         }
       }
-
+      
       &--content {
         display: flex;
         justify-content: space-between;
