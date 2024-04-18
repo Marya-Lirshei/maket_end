@@ -55,6 +55,12 @@ const burger = document.getElementsByClassName('icon-call__burger')[0]
 const sidebar = document.getElementsByClassName('sidebar__wrapper')[0]
 const btnCloseSidebar = document.getElementsByClassName('sidebar__btn-close')[0]
 
+function handleCloseModal() {
+  modal.forEach((elem) => {
+    elem.classList.remove('modal__wrapper--active');
+  });
+}
+
 readMore[0].addEventListener('click', function () {
   if (textHidable.classList.contains('about__text--hidable')) {
     textHidable.classList.remove('about__text--hidable')
@@ -91,6 +97,8 @@ readMore[2].addEventListener('click', function () {
   }
 })
 
+
+
 btnCloseModal.forEach((elem) => {
   elem.addEventListener('click', function () {
     overlay.classList.remove('overlay--active')
@@ -102,6 +110,7 @@ btnCloseModal.forEach((elem) => {
 
 btnMessage.forEach(function (elem) {
   elem.addEventListener('click', function () {
+    handleCloseModal();
     modal[1].classList.add('modal__wrapper--active')
     sidebar.classList.remove('sidebar--active')
     overlay.classList.add('overlay--active')
@@ -110,6 +119,7 @@ btnMessage.forEach(function (elem) {
 
 btnCall.forEach(function (elem) {
   elem.addEventListener('click', function () {
+    handleCloseModal();
     modal[0].classList.add('modal__wrapper--active')
     sidebar.classList.remove('sidebar--active')
     overlay.classList.add('overlay--active')
