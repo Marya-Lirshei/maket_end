@@ -3,9 +3,18 @@
     &--contacts {
       display: flex;
     }
+
+    &__first-part {
+      margin-left: 24px;
+    }
+
+    &__second-part{
+      margin-right: 24px;
+    }
+
     &__icon-wrapper {
-      &:first-of-type {
-        &::after {
+      &--main-logo {
+        &::before {
           content: '';
           margin: auto 10px;
           position: relative;
@@ -156,16 +165,14 @@
     }
 
     &__grey {
-
       font-weight: 500;
       font-size: 14px;
       line-height: 16px;
-      color: #7E7E82;
+      color: #7e7e82;
       mix-blend-mode: normal;
       opacity: 0.72;
       background-color: $decoration-color-5;
       width: 100%;
-
 
       &--content {
         display: flex;
