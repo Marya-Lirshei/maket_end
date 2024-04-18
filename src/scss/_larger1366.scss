@@ -49,9 +49,27 @@
     }
   }
 
+  
   .page {
     &__wrapper {
       padding-left: 320px;
+    }
+  }
+
+  .modal {
+    
+    &__btn {
+      position: absolute;
+      right: 469px;
+      top: 8px;
+    }
+
+    &__wrapper {
+      
+      &--active {
+        // background-color: red;
+        width: 440px;
+      }
     }
   }
 }

@@ -4,14 +4,14 @@
 @import './content';
 @import '../../node_modules/swiper/swiper.scss';
 @import './swiper';
-@import './larger320';
-@import './larger768';
 @import './footer';
 @import './sidebar';
-@import './larger1000';
-@import './larger1366';
 @import './overlay';
 @import './modal';
+@import './larger320';
+@import './larger768';
+@import './larger1000';
+@import './larger1366';
 
 * {
   margin: 0;
