@@ -41,7 +41,9 @@
       box-shadow: none;
       position: fixed;
     }
-
+    &__image{
+      margin: 0;
+    }
     &__btn-close {
       display: none;
     }
