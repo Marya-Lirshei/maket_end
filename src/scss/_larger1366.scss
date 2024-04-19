@@ -1,4 +1,12 @@
 @media screen and (min-width: 1366px) {
+
+  .overlay {
+   
+    &--active {
+     z-index: 11;
+    }
+  }
+
   .header {
     display: none;
   }
@@ -65,7 +73,7 @@
     }
 
     &__wrapper {
-      
+      z-index: 12;
       &--active {
         width: 440px;
       }
