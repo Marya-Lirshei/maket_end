@@ -1,15 +1,15 @@
 .modal {
   &__btn {
+    position: absolute;
     margin-top: 24px;
     margin-left: 16px;
-    position: absolute;
   }
 
   &__wrapper {
     position: fixed;
     right: -200%;
     min-width: 320px;
-    max-width: 440px;
+    // max-width: 440px;
     height: 100vh;
     background-color: $decoration-color-2;
     box-shadow: 0px 0px 44px -6px;
@@ -30,15 +30,15 @@
     position: relative;
     font-size: 24px;
     font-weight: 700;
-    margin-left: 12px;
-    margin-top: 65px;
-    margin-bottom: 25px;
+    padding-left: 17px;
+    padding-top: 104px;
+    padding-bottom: 24px;
 
     &:before {
       content: '';
       position: absolute;
-      left: -12px;
-      top: 8px;
+      left: 2px;
+      top: 111px;
       border-radius: 0 4px 4px 0;
       width: 4px;
       height: 32px;
@@ -51,8 +51,8 @@
   &__wrapper {
     display: flex;
     flex-direction: column;
-    margin-left: 16px;
-    margin-right: 30px;
+    padding-left: 16px;
+    padding-right: 30px;
   }
 
   &__input,

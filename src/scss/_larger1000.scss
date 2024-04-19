@@ -7,15 +7,10 @@
       }
     }
     &__content {
-      max-width: 1118px;
-      margin: 0 auto;
-      max-height: 200px;
-      display: flex;
       justify-content: flex-start;
       flex-wrap: wrap;
-      margin-top: 24px;
-      margin-left: 70px;
-      align-items: flex-end;
+      max-width: 1050px;
+      margin: 0 auto;
       &--click {
         max-height: 413px;
         overflow: hidden;
@@ -23,7 +18,4 @@
       }
     }
   }
-
-
-
 }

@@ -5,11 +5,11 @@
     }
 
     &__first-part {
-      margin-left: 24px;
+      padding-left: 24px;
     }
 
     &__second-part{
-      margin-right: 24px;
+      padding-right: 24px;
     }
 
     &__icon-wrapper {
@@ -33,7 +33,6 @@
       justify-content: space-between;
       margin: 30px auto 0 auto;
       align-items: flex-start;
-      // width: 94%;
       max-width: 1050px;
     }
 
@@ -72,28 +71,24 @@
 
   .desctop {
     display: flex;
-
+    
     &__slide {
       width: 224px;
-      margin-bottom: 10px;
-      margin-left: 5px;
+      padding-bottom: 5px;
     }
-
+    
     &__content {
-      background-color: red;
-      margin: 0 auto;
-      max-width: 860px;
-      max-height: 199px;
+      margin: 23px auto 0px auto;
+      max-width: 800px;
+      max-height: 165px;
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
-      padding-top: 24px;
-      // align-items: flex-end;
       overflow: hidden;
       transition: 0.5s;
 
       &--click {
-        max-height: 430px;
+        max-height: 500px;
         overflow: auto;
         transition: all 0.5s;
       }
@@ -103,10 +98,7 @@
   .price {
     &__wrapper {
       display: block;
-      // flex-flow: column;
-      // margin: 31px 15px;
       margin: 0 auto;
-      // margin-left: 1000px;
       border-radius: 50px;
       max-width: 1050px;
     }
@@ -192,7 +184,7 @@
 
   .footer {
     &__wrapper {
-      margin-top: 40px;
+      padding-top: 40px;
     }
 
     &__items {
@@ -219,9 +211,8 @@
     }
     &__btn {
       position: absolute;
-      right: 347px;
-      top: 8px;
-
+      margin-top: 24px;
+      margin-left: 16px;
     }
   }
 }
