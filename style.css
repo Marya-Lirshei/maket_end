@@ -758,6 +758,11 @@
     padding-bottom: 20px; } }
 
 @media screen and (min-width: 1000px) {
+  .about__content {
+    margin: 15px auto 0 auto;
+    max-width: 1014px; }
+  .about__wrapper {
+    padding: 0 16px 0 30px; }
   .desctop__slide--image {
     width: 224px;
     padding-left: 25px; }
@@ -775,8 +780,10 @@
 
 @media screen and (min-width: 1366px) {
   .about__content {
-    margin: 30px auto 0 auto;
+    margin: 10px auto 0;
     max-width: 1014px; }
+  .about__wrapper {
+    padding: 16px 16px 0 35px; }
   .overlay--active {
     z-index: 11; }
   .header {
