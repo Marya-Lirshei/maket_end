@@ -1,16 +1,20 @@
 @media screen and (min-width: 1000px) {
+
+
   .desctop {
-    
     &__slide {
       &--image {
         width: 224px;
+        padding-left: 25px;
       }
     }
     &__content {
       justify-content: flex-start;
       flex-wrap: wrap;
+      gap: 20px;
       max-width: 1050px;
-      margin: 0 auto;
+      margin: 23px auto 0px auto;
+      max-height: 157px;
       &--click {
         max-height: 413px;
         overflow: hidden;

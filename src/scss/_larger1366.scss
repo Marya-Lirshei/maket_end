@@ -1,7 +1,14 @@
 @media screen and (min-width: 1366px) {
 
+  .about{
+    &__content{
+      margin: 30px auto 0 auto;
+      max-width: 1014px;
+    }
+  }
+
+
   .overlay {
-   
     &--active {
      z-index: 11;
     }
@@ -41,6 +48,14 @@
   .desctop {
     &__content {
       margin: 23px auto 0px auto;
+      gap: 20px;
+    }
+  }
+
+  .price{
+    &__wrapper{
+      margin: 0 auto;
+      max-width: 1050px;
     }
   }
 
@@ -61,42 +76,6 @@
   .page {
     &__wrapper {
       padding-left: 320px;
-    }
-  }
-
-  .modal {
-    &__wrapper {
-      z-index: 12;
-      &--active {
-        width: 440px;
-      }
-    }
-    
-    &__header {
-          padding-top: 40px;
-          padding-left: 32px;
-          &:before {
-            content: '';
-            position: absolute;
-            left: 1px;
-            top: 48px;
-          }
-        }
-
-    &__btn {
-      position: absolute;
-      right: 472px;
-      top: 20px;
-    }
-  }
-
-  .form {
-    &__wrapper {
-      display: flex;
-      flex-direction: column;
-      padding-left: 32px;
-      padding-right: 32px;
-      padding-bottom: 20px;
     }
   }
 

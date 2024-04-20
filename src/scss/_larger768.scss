@@ -31,13 +31,13 @@
     &__content {
       display: flex;
       justify-content: space-between;
-      margin: 30px auto 0 auto;
       align-items: flex-start;
-      max-width: 1050px;
+      max-width: 1300px;
     }
 
     &__wrapper {
       width: 48%;
+      padding: 16px 16px 0 24px;
     }
 
     &__image {
@@ -74,16 +74,16 @@
     
     &__slide {
       width: 224px;
-      padding-bottom: 5px;
     }
     
     &__content {
       margin: 23px auto 0px auto;
       max-width: 800px;
-      max-height: 165px;
+      max-height: 174px;
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
+      gap: 20px;
       overflow: hidden;
       transition: 0.5s;
 
@@ -100,7 +100,7 @@
       display: block;
       margin: 0 auto;
       border-radius: 50px;
-      max-width: 1050px;
+      max-width: 1250px;
     }
 
     &__item {
@@ -204,4 +204,41 @@
       }
     }
   }
+
+  .modal {
+    &__wrapper {
+      z-index: 12;
+      &--active {
+        width: 440px;
+      }
+    }
+    
+    &__header {
+          padding-top: 40px;
+          padding-left: 32px;
+          &:before {
+            content: '';
+            position: absolute;
+            left: 1px;
+            top: 48px;
+          }
+        }
+
+    &__btn {
+      position: absolute;
+      right: 472px;
+      top: 20px;
+    }
+  }
+
+  .form {
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      padding-left: 32px;
+      padding-right: 32px;
+      padding-bottom: 20px;
+    }
+  }
+
 }
