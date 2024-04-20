@@ -2,8 +2,12 @@
 
   .about{
     &__content{
-      margin: 30px auto 0 auto;
+      margin: 10px auto 0;
       max-width: 1014px;
+    }
+
+    &__wrapper{
+      padding: 16px 16px 0 35px;
     }
   }
 
