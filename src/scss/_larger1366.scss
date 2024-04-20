@@ -65,18 +65,39 @@
   }
 
   .modal {
-    
-    &__btn {
-      position: absolute;
-      right: 469px;
-      top: 8px;
-    }
-
     &__wrapper {
       z-index: 12;
       &--active {
         width: 440px;
       }
     }
+    
+    &__header {
+          padding-top: 40px;
+          padding-left: 32px;
+          &:before {
+            content: '';
+            position: absolute;
+            left: 1px;
+            top: 48px;
+          }
+        }
+
+    &__btn {
+      position: absolute;
+      right: 472px;
+      top: 20px;
+    }
   }
+
+  .form {
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      padding-left: 32px;
+      padding-right: 32px;
+      padding-bottom: 20px;
+    }
+  }
+
 }
