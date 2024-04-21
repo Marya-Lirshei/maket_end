@@ -106,7 +106,7 @@ btnCloseModal.forEach((elem) => {
 
 btnMessage.forEach(function (elem) {
   elem.addEventListener('click', function () {
-    modal[1].classList.add('modal__wrapper--active')
+    modal[0].classList.add('modal__wrapper--active')
     sidebar.classList.remove('sidebar--active')
     overlay.classList.add('overlay--active')
   })
@@ -114,7 +114,7 @@ btnMessage.forEach(function (elem) {
 
 btnCall.forEach(function (elem) {
   elem.addEventListener('click', function () {
-    modal[0].classList.add('modal__wrapper--active')
+    modal[1].classList.add('modal__wrapper--active')
     sidebar.classList.remove('sidebar--active')
     overlay.classList.add('overlay--active')
   })
