@@ -559,8 +559,10 @@
   padding-bottom: 19px; }
 
 .form__input {
+  font-family: 'TT Lakes Medium';
   width: 288px;
   width: 100%;
+  height: 48px;
   padding: 16px;
   border: 1px solid #eaeaea;
   border-radius: 8px;
@@ -569,11 +571,6 @@
   line-height: 24px;
   letter-spacing: -0.2px;
   color: #7e7e82; }
-
-.form__input {
-  height: 48px;
-  border-radius: 5px;
-  border: 1px solid #eaeaea; }
 
 .form__area {
   height: 118px;
