@@ -1,5 +1,16 @@
 @media screen and (min-width: 1000px) {
 
+  .services {
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      overflow: hidden;
+    }
+    &__list-item {
+      margin-left: 22px;
+    }
+  }
+
   .about{
     &__content{
       max-width: 1439px;
