@@ -636,8 +636,7 @@
   .services__list {
     display: flex;
     flex-wrap: wrap;
-    overflow: hidden;
-    margin-top: 24px; }
+    overflow: hidden; }
   .services__list-item {
     margin-left: 22px; }
   .swiper {
@@ -760,9 +759,11 @@
 @media screen and (min-width: 1000px) {
   .about__content {
     margin: 15px auto 0 auto;
-    max-width: 1014px; }
+    max-width: 1214px; }
   .about__wrapper {
     padding: 0 16px 0 30px; }
+  .about__image {
+    padding: 0 0 16px; }
   .desctop__slide--image {
     width: 224px;
     padding-left: 25px; }
