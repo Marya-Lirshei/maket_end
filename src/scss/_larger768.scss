@@ -41,8 +41,9 @@
     }
 
     &__image {
-      margin-top: 0;
       width: 48%;
+      margin-top: 0;
+      padding-bottom: 0;
     }
   }
 
@@ -51,7 +52,6 @@
       display: flex;
       flex-wrap: wrap;
       overflow: hidden;
-      // margin-top: 24px;
     }
     &__list-item {
       margin-left: 22px;
@@ -63,9 +63,22 @@
   }
 
   .chapter {
+    &__wrapper{
+      padding: 25px 25px 0;
+    }
+    &__tax{
+      padding: 24px 0 16px;
+    }
+
+    &__commercial {
+      &--link {
+        padding: 0px;
+      }
+    }
+
     .read-more {
       display: inline-block;
-      margin: 10px 0 0 40px;
+      margin-top: 10px;
     }
   }
 
@@ -77,8 +90,8 @@
     }
     
     &__content {
-      margin: 23px auto 0px auto;
-      max-width: 800px;
+      margin: 23px 0 10px;
+      max-width: 1000px;
       max-height: 174px;
       display: flex;
       justify-content: space-around;
