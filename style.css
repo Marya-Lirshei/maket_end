@@ -141,7 +141,7 @@
 .chapter__header {
   background: linear-gradient(to right, #f8f8f8 30%, #ffffff);
   width: 100%;
-  padding: 16px; }
+  padding: 16px 0; }
   .chapter__header h2 {
     font-size: 16px;
     line-height: 24px;
@@ -631,8 +631,9 @@
     width: 48%;
     padding: 16px 16px 0 24px; }
   .about__image {
+    width: 48%;
     margin-top: 0;
-    width: 48%; }
+    padding-bottom: 0; }
   .services__list {
     display: flex;
     flex-wrap: wrap;
@@ -641,16 +642,22 @@
     margin-left: 22px; }
   .swiper {
     display: none; }
+  .chapter__wrapper {
+    padding: 25px 25px 0; }
+  .chapter__tax {
+    padding: 24px 0 16px; }
+  .chapter__commercial--link {
+    padding: 0px; }
   .chapter .read-more {
     display: inline-block;
-    margin: 10px 0 0 40px; }
+    margin-top: 10px; }
   .desctop {
     display: flex; }
     .desctop__slide {
       width: 224px; }
     .desctop__content {
-      margin: 23px auto 0px auto;
-      max-width: 800px;
+      margin: 23px 0 10px;
+      max-width: 1000px;
       max-height: 174px;
       display: flex;
       justify-content: space-around;
